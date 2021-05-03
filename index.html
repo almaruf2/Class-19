@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Class 19</title>
+</head>
+
+<body>
+    <!--Header Start-->
+    <header>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavSupCont" aria-controls="NavSupCont" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="NavSupCont">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/component.html">Component</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/form.html">Form</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="NavDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="NavDrop">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--Header End-->
+    <!--Carousal Start-->
+    <section class="C_slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Slider Start-->
+                    <div id="Slider_indic" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators custom-indicator">
+                            <!--indicators-->
+                            <button type="button" data-bs-target="#Slider_indic" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#Slider_indic" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#Slider_indic" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#Slider_indic" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <!--inner-->
+                        <div class="carousel-inner">
+                            <!--item-->
+                            <div class="carousel-item active">
+                                <img src="images/Cox1.jpg" class="d-block w-100" alt="Cox Bazar">
+                                <!--Title-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Enjoy The Largest Sea Beach in the World</h5>
+                                    <p>Here Millions of people visit to feel and find their inner peace and creators beauty through nature.</p>
+                                </div>
+                            </div>
+                            <!--item-->
+                            <div class="carousel-item">
+                                <img src="images/Cox2.jpg" class="d-block w-100" alt="Cox Bazar">
+                                <!--Title-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Enjoy The Largest Sea Beach in the World</h5>
+                                    <p>Here Millions of people visit to feel and find their inner peace and creators beauty through nature.</p>
+                                </div>
+                            </div>
+                            <!--item-->
+                            <div class="carousel-item">
+                                <img src="images/Cox3.jpg" class="d-block w-100" alt="Cox Bazar">
+                                <!--Title-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Enjoy The Largest Sea Beach in the World</h5>
+                                    <p>Here Millions of people visit to feel and find their inner peace and creators beauty through nature.</p>
+                                </div>
+                            </div>
+                            <!--item-->
+                            <div class="carousel-item">
+                                <img src="images/Cox4.jpg" class="d-block w-100" alt="Cox Bazar">
+                                <!--Title-->
+                                <div class="carousel-caption d-none d-md-block ">
+                                    <h5>Enjoy The Largest Sea Beach in the Dawn</h5>
+                                    <p>Here Millions of people visit to feel and find their inner peace and creators beauty through nature.</p>
+                                </div>
+                            </div>
+                            <!--inner-->
+                        </div>
+                        <!--buttons-->
+                        <button class="carousel-control-prev c_p" type="button" data-bs-target="#Slider_indic" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next c_r" type="button" data-bs-target="#Slider_indic" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!--Slider End-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Carousal End-->
+
+    <!--Banner Start-->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-sm-4">
+
+                    <!--Sldier start-->
+                    <div id="carouselExIndic2" class="carousel slide" data-bs-ride="carousel">
+                        <!--Indicator-->
+                        <div class="carousel-indicators indic_2">
+                            <button type="button" data-bs-target="#carouselExIndic2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExIndic2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExIndic2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <!--inner-->
+                        <div class="carousel-inner">
+
+                            <!--Item Start-->
+                            <div class="carousel-item active">
+                                <div class="slider">
+                                    <h1>Title First</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur excepturi perferendis reiciendis iste culpa nisi consequatur, et fugiat repellat!</p>
+                                    <button>Click Here</button>
+                                </div>
+                            </div>
+                            <!--Item End-->
+                            <!--Item Start-->
+                            <div class="carousel-item">
+                                <div class="slider">
+                                    <h1>Title First</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur excepturi perferendis reiciendis iste culpa nisi consequatur, et fugiat repellat!</p>
+                                    <button>Click Here</button>
+                                </div>
+                            </div>
+                            <!--Item End-->
+                            <!--Item Start-->
+                            <div class="carousel-item">
+                                <div class="slider">
+                                    <h1>Title First</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur excepturi perferendis reiciendis iste culpa nisi consequatur, et fugiat repellat!</p>
+                                    <button>Click Here</button>
+                                </div>
+                            </div>
+                            <!--Item End-->
+                        </div>
+                        <!--Buttons-->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExIndic2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExIndic2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <!--Buttons-->
+                    </div>
+                    <!--Sldier End-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Banner End-->
+
+    <!-- JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    
+    <title>Form</title>
+  </head>
+  <body>
+  <!--Start-->
+   <h4 class="text-center bg-secondary c_t">Form Regular <a href="../index.html" class="text-center f_a">Home</a></h4>
+    <section class="frm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Form-->
+                    <form>
+                        <div class="mb-3">
+                            <label for="u_email" class="form-label">Email address</label>
+                            <input type="email" class="form-control u_email" id="u_email" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="u_pass" class="form-label">Password</label>
+                            <input type="password" id="u_pass" class="form-control u_pass" required>
+                            <div id="passwordHelpBlock" class="form-text">
+                                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="u_check" required>
+                            <label class="form-check-label u_check" for="u_check">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                    </form>
+                    <!--Form-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End-->
+    <!--srt 2-->
+    <h4 class="text-center bg-secondary c_t">Small Pass Check</h4>
+    <section class="smlpas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Pass Small-->
+                    <div class="row g-3 align-items-center">
+                       <!--items-->
+                        <div class="col-auto">
+                            <label for="ps_sm" class="col-form-label">Password</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="password" id="ps_sm" class="form-control ps_sm" required>
+                        </div>
+                        <div class="col-auto">
+                            <span id="passwordHelpInline" class="form-text">
+                                Must be 8-20 characters long.
+                            </span>
+                        </div>
+                           <div class="col-auto">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        <!--items-->
+                    </div>
+                    <!--Pass Small-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End 2-->
+    <!--Form Start-->
+    <h4 class="text-center bg-secondary c_t">Form Control with File Upload</h4>
+    <section class="forom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--form-->
+                    <div class="mb-3">
+                        <label for="exForm0ne" class="form-label">Email address</label>
+                        <input type="email" class="form-control form-control-lg" id="exForm0ne" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="ExformText0ne" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="ExformText0ne" rows="3"></textarea>
+                    </div>
+                    <!--form-->
+                    <!--File Upload0-->
+                    <div class="mb-3">
+                        <label for="formFile1" class="form-label">Upload Documents Here</label>
+                        <input class="form-control" type="file" id="formFile1">
+                    </div>
+                    <!--File Upload0-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Form End-->
+    <!--Datalist Start-->
+    <h4 class="text-center bg-secondary c_t">Datalist And Color Picker</h4>
+    <section class="dtl_cp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Data list-->
+                    <label for="Dta_list" class="form-label">Datalist example</label>
+                    <input class="form-control" list="Dta_list_opt" id="Dta_list" placeholder="Type to search...">
+                    <datalist id="Dta_list_opt">
+                        <option value="San Francisco">
+                        <option value="New York">
+                        <option value="Seattle">
+                        <option value="Los Angeles">
+                        <option value="Chicago">
+                    </datalist>
+                    <!--Data list-->
+                    <!--Color Picker-->
+                    <label for="Ex_clr_int" class="form-label">Color picker</label>
+                    <input type="color" class="form-control form-control-color" id="Ex_clr_int" value="#563d7c" title="Choose your color">
+                    <!--Color Picker-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Datalist Start-->
+    <!--Select Start-->
+    <h4 class="text-center bg-secondary c_t">Select</h4>
+    <section class="slct">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Seclect-->
+                    <select class="form-select form-select-lg mb-3" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <!--Seclect-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Select End-->
+    <!--Check And Radio Start-->
+    <h4 class="text-center bg-secondary c_t">Checks And Radios</h4>
+    <section class="c_n_r">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Radio-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Radio_One" checked>
+                        <label class="form-check-label" for="Radio_One">
+                            Default radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Radio_Two">
+                        <label class="form-check-label" for="Radio_Two">
+                            Default checked radio
+                        </label>
+                    </div>
+                    <!--Radio-->
+                    <!--Check-->
+                    <div class="form-check form-switch form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="Check_one">
+                        <label class="form-check-label" for="Check_one" checked>
+                            Checked checkbox
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="Check_Two">
+                        <label class="form-check-label" for="Check_Two">
+                            Unchecked checkbox
+                        </label>
+                    </div>
+                    <!--Check-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Check And Radio End-->
+    <!--Range Start-->
+    <h4 class="text-center bg-secondary c_t">Select</h4>
+    <section class="forom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Range-->
+                    <label for="C_range_One" class="form-label c_t_rng">Experience Level</label>
+                    <input type="range" class="form-range" min="0" max="5" step="0.5" id="C_range_One">
+                    <!--Range-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Range End-->
+    <!--input grp Start-->
+    <h4 class="text-center bg-secondary c_t">Input Groups</h4>
+    <section class="i_grp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--input group-->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="Basic_add_One">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="Basic_add_One">
+                    </div>
+                    <!--Range-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--input grp End-->
+    <!--Floating Box Start-->
+    <h4 class="text-center bg-secondary c_t">Floting box</h4>
+    <section class="flt_b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Floting Box-->
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="Float_u" placeholder="name@example.com" required>
+                        <label for="Float_u">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="Float_pass" placeholder="Password" required>
+                        <label for="Float_pass">Password</label>
+                    </div>
+                    <!--Floting Box-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Floating Box End-->
+    <!--Form Validation Start-->
+    <h4 class="text-center bg-secondary c_t">Floting box</h4>
+    <section class="validation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--valid Start-->
+                    <form class="row g-3 needs-validation" novalidate>
+                       
+                        <div class="col-md-6">
+                            <label for="Valid_C1" class="form-label">Full name</label>
+                            <input type="text" class="form-control" id="Valid_C1" placeholder="Enter your full name" required>
+                            
+                            <div class="invalid-feedback">Please enter your full name.</div>
+                            <div class="valid-feedback">Looks Good.</div>
+                            
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="Valid_C_User" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text">@</span>
+                                <input type="text" class="form-control" id="Valid_C_User"required>
+                                <div class="invalid-feedback">Please choose a username.</div>
+                                <div class="valid-feedback">Nice Choice!</div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <label for="Valid_C_addrs" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="Valid_C_addrs" placeholder="Enter a valid address" required>
+                            
+                            <div class="invalid-feedback">Please provide a valid Address.</div>
+                            <div class="valid-feedback">Seems valid.</div>
+                            
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalid_chk" required>
+                                <label class="form-check-label" for="invalid_chk">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">You must agree before submitting.</div>
+                                <div class="valid-feedback">It's Checked Now.</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                        <!--valid end-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--Form Validation End-->
+
+    <!-- JS -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script> 
+    <script src="../js/script.js"></script>
+       
+        <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+    if (!form.checkValidity()) {
+    event.preventDefault()
+    event.stopPropagation()
+    }
+
+    form.classList.add('was-validated')
+    }, false)
+    })
+    })()
+    </script>
+    
+  </body>
+</html>
